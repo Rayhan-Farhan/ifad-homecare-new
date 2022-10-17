@@ -18,7 +18,7 @@
     display: none;
     right: 45px;
     bottom: 45px;
-    z-index: 1000;
+    z-index: 99;
 }
 
 
@@ -152,10 +152,9 @@
 
 
 /*** Header carousel ***/
-@media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
-        position: relative;
-        min-height: 500px;
+        position: absolute;
+        min-height: 550px;
     }
     
     .header-carousel .owl-carousel-item img {
@@ -164,7 +163,7 @@
         height: 100%;
         object-fit: cover;
     }
-}
+
 
 .header-carousel .owl-nav {
     position: absolute;
