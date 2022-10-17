@@ -163,7 +163,7 @@
     background: rgba(22, 22, 22, .2);
 }
 
-@media (max-width: 768px) {
+
     .header-carousel .owl-carousel-item {
         position: relative;
         min-height: 500px;
@@ -186,7 +186,7 @@
         font-size: 30px;
         font-weight: 600;
     }
-}
+
 
 .header-carousel .owl-nav {
     position: absolute;
